@@ -33,6 +33,8 @@ their playlists on Spotify. This is a low effort way to get those playlists back
 
    ```bash
    poetry init
+   poetry update
+   poetry install
    ```
 
 1. Follow the instructions for [authorisation of spotify apps](https://spotipy.readthedocs.io/en/latest/#authorized-requests)
