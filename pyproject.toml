@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "bbc_meet_spotify"
+name = "bbc_meet_spotify_fork"
 version = "0.1.0"
 description = "Scrapes BBC sounds playlists and adds them to a spotify playlist"
 authors = ["Stef Piatek <stef.piatek@gmail.com>"]
