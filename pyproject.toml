@@ -6,7 +6,7 @@ authors = ["Stef Piatek <stef.piatek@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/stefpiatek/bbc_meet_spotify"
-repository = "https://github.com/stefpiatek/bbc_meet_spotify"
+repository = "https://github.com/krulkrul/bbc_meet_spotify/"
 keywords = ["bbc sounds", "spotify"]
 
 [tool.poetry.dependencies]
