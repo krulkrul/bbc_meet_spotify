@@ -1,3 +1,4 @@
+import re
 import time
 from pathlib import Path
 from typing import Dict, List
@@ -112,6 +113,10 @@ class Spotify:
         :raises IndexError: if no tracks are found
         :return: spotify song id
         """
+        
+        #remove "featuring" artists from artist to improve Spotify search results
+        artist = re.sub('\s+(Ft.|Featur|Feat.).*$', '', artist)
+        
         results = self.spotify.search(q=f"artist:{artist} track:{song_title}")["tracks"]["items"]
         results.sort(key=lambda x: len(x["name"]))
         return results[0]["id"]
